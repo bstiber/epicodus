@@ -17,3 +17,10 @@ puts total
 total = 0
 5.times { |time| total = total + time}
 total
+
+names = []
+10.times do |name|
+  names.push("bravo ech0")
+  names.push("------ Charlie")
+end
+puts names
